@@ -4,6 +4,7 @@ import logo from './logo.svg'
 const Home = () => (
 	<React.Fragment>
 		<h1>Home</h1>
+		<hr />
 		<img src={logo} className='App-logo' alt='logo' />
 		<p>
 			Lorem Ipsum is simply dummy text of the printing and typesetting industry.

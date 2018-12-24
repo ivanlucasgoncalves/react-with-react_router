@@ -24,6 +24,15 @@ code {
 	color: white;
 }
 
+a {
+	color: #fff;
+	font-size: 20px;
+}
+
+h1 {
+	margin-top: 0;
+}
+
 .App {
 	text-align: center;
 }
@@ -53,6 +62,7 @@ code {
 				display: block;
 				text-decoration: none;
 				color: #282c34;
+				font-size: 18px;
 				&.active {
 					color: brown;
 				}

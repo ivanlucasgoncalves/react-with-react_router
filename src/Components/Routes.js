@@ -6,8 +6,8 @@ import './App.scss'
 import Header from './Header/Header'
 import Home from './Pages/Home'
 import About from './Pages/About'
-import Topics from './Pages/Topics/Topics'
-import ReadMore from './Pages/Topics/ReadMore/ReadMore'
+import Topics from './Pages/Topics'
+import ReadMore from './Pages/ReadMore'
 
 const Routes = () => (
 	<Router>
