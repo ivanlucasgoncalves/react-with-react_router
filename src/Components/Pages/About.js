@@ -1,7 +1,11 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 const About = () => (
 	<React.Fragment>
+		<Helmet>
+			<title>About</title>
+		</Helmet>
 		<h1>About</h1>
 		<hr />
 		<p>

@@ -1,8 +1,12 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 const ReadMore = () => {
 	return (
 		<React.Fragment>
+			<Helmet>
+				<title>Topic: React Router</title>
+			</Helmet>
 			<h1>Topic: React Router</h1>
 			<hr />
 			<p>

@@ -1,8 +1,12 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import logo from './logo.svg'
 
 const Home = () => (
 	<React.Fragment>
+		<Helmet>
+			<title>Home</title>
+		</Helmet>
 		<h1>Home</h1>
 		<hr />
 		<img src={logo} className='App-logo' alt='logo' />
